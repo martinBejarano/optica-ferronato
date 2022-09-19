@@ -1,0 +1,10 @@
+@import "./reset";
+@import "./variables";
+@import "./fonts";
+@import "./mixins";
+
+*, *::after, *::before{
+	box-sizing: border-box;
+	font-weight: normal;
+	font-family: Roboto, sans-serif;
+}

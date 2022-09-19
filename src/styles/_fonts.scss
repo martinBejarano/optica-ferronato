@@ -1,0 +1,93 @@
+@font-face {
+	font-family: Roboto;
+	font-weight: normal;
+	src: url("./fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Roboto;
+	font-weight: bold;
+	src: url("./fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Roboto;
+	font-stretch: condensed;
+	src: url("./fonts/Roboto-Condensed/RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+/*
+	Mobile / Tablet Fonts
+*/
+
+p{
+	font-size: $text-md;
+}
+
+h1{
+	font-size: $text-xl2;
+	font-weight: 800;
+}
+
+h2{
+	font-size: $text-lg;
+	font-weight: bold;
+}
+
+.title {
+	width: 100%;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+	border-bottom: 2px $orange solid;
+	font-weight: 800;
+}
+
+.subtitle {
+	color: $orange;
+	font-size: $text-md;
+	font-stretch: condensed;
+}
+
+.mobile-sections-open-menu__current-section, .mobile-menu__link, .home__desktop-link{
+	font-size: $text-lg;
+}
+
+@media screen and (min-width: $laptop-bp) {
+	p {
+		font-size: $text-sm;
+	}
+	
+	.title {
+		font-size: $text-xl1;
+		width: 85%;
+		text-align: left;
+		border-bottom: 3px $orange solid;
+	}
+
+	.contact__link {
+		font-size: $text-ty;
+	}
+
+	.mobile-sections-open-menu__current-section, .mobile-menu__link, .home__desktop-link{
+		font-size: $text-lg;
+	}
+
+	.dekstop-sections-return-home__current-section{
+		font-size: $text-xl1;
+	}
+}
+
+@media screen and (min-width: $desktop-bp) {
+	p {
+		font-size: $text-lg;
+	}
+	
+	.title {
+		font-size: $text-xl2;
+	}
+
+	.home__desktop-link{
+		font-size: $text-xl1;
+	}
+}
