@@ -155,7 +155,6 @@ import { menuVisible, openMenu, closeMenu, changeSection, sections, currentSecti
 	align-items: center;
 
 	background: $orange;
-	// font-size: clamp(1em, 6vw, 1.3em);
 	font-stretch: condensed;
 	z-index: 20;
 
@@ -163,13 +162,6 @@ import { menuVisible, openMenu, closeMenu, changeSection, sections, currentSecti
 		width: 14px;
 		margin: 0px 15px;
 	}
-
-	// &.collaborators {
-	// 	width: 300px;
-	// 	justify-content: center;
-	// 	left: 20vw;
-	// }
-
 }
 
 @media screen and (min-width: $laptop-bp) {
