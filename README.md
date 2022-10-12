@@ -1,5 +1,5 @@
-Projecto Optica Ferronato
+# Optica Ferronato Project
 
-Desarollo Front End
+Front End Development
 
 URL: https://opticaferronato.com/
